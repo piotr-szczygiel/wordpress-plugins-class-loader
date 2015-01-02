@@ -36,6 +36,10 @@ strict directory tree structure that will match the namespaces. Sounds scary, bu
 
 How to run
 ==========
+
+As some of you already notices, class contains two public methods: `register()` and `startAutoload()`. Don't mind the second one: it's used as a callback function,
+so that's why it needs to be public. The only one you need is `register()` method. As in below example.
+
 `<?php`  
 `namespace YourSamplePlugin;`  
     

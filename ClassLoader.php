@@ -6,7 +6,7 @@ namespace YourSamplePlugin\Src\Services\Vendor;
  * Please read README.md to get more info about the usage.
  *
  * Class ClassLoader
- * @package s2MemberProPostFinance\Src\Services
+ * @package YourSamplePlugin\Src\Services\Vendor
  * @version 1.0
  * @link https://github.com/piotr-szczygiel/wordpress-plugins-class-loader
  */
