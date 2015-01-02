@@ -36,11 +36,11 @@ strict directory tree structure that will match the namespaces. Sounds scary, bu
 
 How to run
 ==========
-`<?php`
-`namespace YourSamplePlugin;`
-
-`require_once(plugin_dir_path(__FILE__) . 'Src/Services/ClassLoader.php');`
-`$classLoader = new ClassLoader(plugin_dir_path(__FILE__), 's2MemberProPostFinance');`
-`$classLoader->register();`
+`<?php`  
+`namespace YourSamplePlugin;`  
+    
+`require_once(plugin_dir_path(__FILE__) . 'Src/Services/ClassLoader.php');`  
+`$classLoader = new ClassLoader(plugin_dir_path(__FILE__), 's2MemberProPostFinance');`  
+`$classLoader->register();`  
 
 `/* Plugin code */`
